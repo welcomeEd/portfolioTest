@@ -1,0 +1,213 @@
+/*ubuntu*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/*ibm*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@600&family=Ubuntu&display=swap');
+
+:root{
+  --mainColor:black;
+  --secondaryColor: black;
+}
+
+h1{
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+h2,h3,h4,h5,h6,p,a, ul{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+*{
+  margin:0;
+  padding: 0;
+}
+
+/*first-preview*/
+
+.header{
+  min-height:100vh;
+  width:100%;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("IMG-2234.jpg");
+  background-position: center;
+  background-size:cover;
+  position:relative;
+}
+
+nav h1{
+  width:500px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+
+nav{
+  display:flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.nav-container{
+  flex:1;
+  text-align:right;
+}
+
+.nav-container ul li{
+  list-style-type:none;
+  display:inline-block;
+  padding: 8px 12px;
+  position:relative;
+}
+
+.nav-container ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 2px;;
+}
+
+.nav-container ul li::after{
+  content:'';
+  background:crimson;
+  display:block;
+  margin:auto;
+  height:2px;
+  width:0%;
+  transition: 500ms;
+}
+
+.nav-container ul li:hover::after{
+  width:100%;
+}
+
+.intro-section{
+  text-align:center;
+  align-content:center;
+  color:white;
+  letter-spacing: 1.5px;
+}
+
+.welcome-intro{
+  font-size:50px;
+  transform:translateY(200px);
+  letter-spacing: 1.5px;
+}
+
+.intro-section hr{
+  transform:translateY(210px);
+  width:50%;
+  margin:auto;
+}
+
+.description-intro{
+  transform:translateY(230px);
+}
+
+/*Skills*/
+
+#skills-container{
+  background-color: #6495ED;
+  color:white;
+}
+
+#skills-container hr{
+  color: black;
+  font-weight: 100;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.skills-header{
+  font-weight: 200;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.individual-langWrap{
+  align-content:center;
+  text-align:center;
+  color:white;
+  letter-spacing: 1px;
+}
+
+.individual-langWrap img{
+  height:100px;
+  width:100px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.individual-langWrap p{
+  margin: 20px;
+  align-content: auto;
+  font-size:20px;
+  line-height:35px;
+}
+
+#c-list{
+  align-content: center;
+  line-height: 30px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.languages-wrapper{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.language-header{
+  font-weight: bold;
+  margin: 20px 20px;
+  font-size: 40px;
+}
+
+/*Projects*/
+
+.projects-intro{
+  text-align: center;
+  margin: 10px 0;
+}
+
+.individual-project-wrapper h1{
+  border: 2px dashed crimson;
+  text-align:center;
+  margin-top: 60px;
+}
+
+.column-separator{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  vertical-align: middle;
+  align-items:center;
+}
+
+
+.column-separator img{
+  height: 300px;
+  width: 300px;
+  padding: auto;
+  border:crimson 2px dashed;
+  margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
